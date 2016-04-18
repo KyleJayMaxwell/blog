@@ -11,6 +11,8 @@ date: 2016-04-17 09:00:00
 
 ## Angular Tutorial #1
 
+[Github Repo](https://github.com/KyleJayMaxwell/angular-levelUpTuts-1)
+
 ### Understanding Data bindings
 ##### -Classic Templates
 
