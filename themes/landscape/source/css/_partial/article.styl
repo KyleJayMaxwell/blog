@@ -10,20 +10,23 @@
 
 .article-date
   @extend $block-caption
-  float: left
+  float: right
+  color: #fff
+  text-shadow: 0 0px #fff
+  &:before
+    content: "\2022"
 
 .article-category
-  float: left
+  float: right
   line-height: 1em
   color: #ccc
   text-shadow: 0 1px #fff
   margin-left: 8px
-  &:before
-    content: "\2022"
 
 .article-category-link
   @extend $block-caption
-  margin: 0 12px 1em
+  color: #fff
+  text-shadow: 0 0px #fff
 
 .article-header
   padding: article-padding article-padding 0

@@ -1,6 +1,7 @@
 # Header
 menu:
   Home: /
+  About: /about
   Archives: /archives
 rss: /atom.xml
 
@@ -9,13 +10,13 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: right
+sidebar: left
 widgets:
+- archive
 - category
+- recent_posts
 - tag
 - tagcloud
-- archive
-- recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -25,7 +26,7 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
 google_analytics:
