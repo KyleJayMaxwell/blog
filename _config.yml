@@ -68,9 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  # type: git
-  # repo: https://github.com/KyleJayMaxwell/blog
-  # branch: gh-pages
   type: git
   repo: https://github.com/Maxw3ll82/Maxw3ll82.github.io
-  branch: master
+  branch: gh-pages
